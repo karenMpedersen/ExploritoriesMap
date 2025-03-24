@@ -1,0 +1,193 @@
+{
+  "Id": 809,
+  "Title": "21207 data structure",
+  "Description": "Data structure for structured data",
+  "inUse": true,
+  "Structured": true,
+  "Variables": [
+    {
+      "Id": 16246,
+      "Label": "date",
+      "Description": "sampling date",
+      "isOptional": true,
+      "unit": {
+        "Id": 45,
+        "Name": "date ISO y-m-d",
+        "Description": "date following the ISO norm",
+        "Dimension": {
+          "Name": "date time",
+          "Description": "format for date and time representation; SI unit: YYYY-MM-DD hh:mm:ss; BEXIS units: mm:ss, hh:mm:ss,  hh:mm, yyyy, yyyy-MM-dd, yyyy-MM-ddThh:mm:ss",
+          "Specification": "dimensionless"
+        },
+        "MeasurementSystem": "Unknown"
+      },
+      "dataType": {
+        "Id": 10,
+        "Name": "date-iso",
+        "Description": "",
+        "SystemType": "DateTime"
+      }
+    },
+    {
+      "Id": 16247,
+      "Label": "month",
+      "Description": "sampling month",
+      "isOptional": true,
+      "unit": {
+        "Id": 1,
+        "Name": "none",
+        "Description": "If no unit is used.",
+        "Dimension": {
+          "Name": "none",
+          "Description": "none",
+          "Specification": "If no unit is used."
+        },
+        "MeasurementSystem": "Unknown"
+      },
+      "dataType": {
+        "Id": 1,
+        "Name": "string",
+        "Description": "String",
+        "SystemType": "String"
+      }
+    },
+    {
+      "Id": 16248,
+      "Label": "exotic",
+      "Description": " \tquery for additional dung types used as bait",
+      "isOptional": true,
+      "unit": {
+        "Id": 1,
+        "Name": "none",
+        "Description": "If no unit is used.",
+        "Dimension": {
+          "Name": "none",
+          "Description": "none",
+          "Specification": "If no unit is used."
+        },
+        "MeasurementSystem": "Unknown"
+      },
+      "dataType": {
+        "Id": 1,
+        "Name": "string",
+        "Description": "String",
+        "SystemType": "String"
+      }
+    },
+    {
+      "Id": 16249,
+      "Label": "chem",
+      "Description": "query for chemical dung baits",
+      "isOptional": true,
+      "unit": {
+        "Id": 1,
+        "Name": "none",
+        "Description": "If no unit is used.",
+        "Dimension": {
+          "Name": "none",
+          "Description": "none",
+          "Specification": "If no unit is used."
+        },
+        "MeasurementSystem": "Unknown"
+      },
+      "dataType": {
+        "Id": 1,
+        "Name": "string",
+        "Description": "String",
+        "SystemType": "String"
+      }
+    },
+    {
+      "Id": 16250,
+      "Label": "EP",
+      "Description": "",
+      "isOptional": true,
+      "unit": {
+        "Id": 1,
+        "Name": "none",
+        "Description": "If no unit is used.",
+        "Dimension": {
+          "Name": "none",
+          "Description": "none",
+          "Specification": "If no unit is used."
+        },
+        "MeasurementSystem": "Unknown"
+      },
+      "dataType": {
+        "Id": 1,
+        "Name": "string",
+        "Description": "String",
+        "SystemType": "String"
+      }
+    },
+    {
+      "Id": 16251,
+      "Label": "dungtype",
+      "Description": "in dung type \"4\": Indole, Skatole, 2_Butanone and Butyric acid as mixture used as bait; in dung type \"6\": all 6 chemicals used as total mixture",
+      "isOptional": true,
+      "unit": {
+        "Id": 1,
+        "Name": "none",
+        "Description": "If no unit is used.",
+        "Dimension": {
+          "Name": "none",
+          "Description": "none",
+          "Specification": "If no unit is used."
+        },
+        "MeasurementSystem": "Unknown"
+      },
+      "dataType": {
+        "Id": 1,
+        "Name": "string",
+        "Description": "String",
+        "SystemType": "String"
+      }
+    },
+    {
+      "Id": 16252,
+      "Label": "species",
+      "Description": "",
+      "isOptional": true,
+      "unit": {
+        "Id": 1,
+        "Name": "none",
+        "Description": "If no unit is used.",
+        "Dimension": {
+          "Name": "none",
+          "Description": "none",
+          "Specification": "If no unit is used."
+        },
+        "MeasurementSystem": "Unknown"
+      },
+      "dataType": {
+        "Id": 1,
+        "Name": "string",
+        "Description": "String",
+        "SystemType": "String"
+      }
+    },
+    {
+      "Id": 16253,
+      "Label": "count",
+      "Description": "number of caught individuals",
+      "isOptional": true,
+      "unit": {
+        "Id": 1,
+        "Name": "none",
+        "Description": "If no unit is used.",
+        "Dimension": {
+          "Name": "none",
+          "Description": "none",
+          "Specification": "If no unit is used."
+        },
+        "MeasurementSystem": "Unknown"
+      },
+      "dataType": {
+        "Id": 7,
+        "Name": "integer",
+        "Description": "An integer number",
+        "SystemType": "Int64"
+      }
+    }
+  ]
+}
